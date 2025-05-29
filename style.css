@@ -1,0 +1,202 @@
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    font-size: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none; /*linha que fica de baixo do link*/
+    text-transform: capitalize; /*txt da linha começam com linha maiúscula*/
+    transition: 0.2s linear; /*a transicoes dos botoes/link do navbar*/
+    
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed; /*navbar fica fixa*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99; 
+    border-bottom: var(--border);
+     background-color: var();
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+     font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color) ;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block; /*ai o btn cmça arespeitar a margin-top*/
+}
+
+.btn:hover {
+    letter-spacing: 0.1rem;
+}
+
+.home-container {
+    background: url("./img/raphael-montes.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.home-container .conteudo {
+    color: white;
+    max-width: 600px;
+    font-family: "Roboto", sans-serif;
+    padding: 2rem;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.conteudo h3 {
+    color: #fff;
+    font-size: 6rem;
+}
+
+.conteudo p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.title {
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase; /*letra maiuscula*/
+    margin-bottom: 2rem;
+}
+
+.title span {
+    color: #fff;
+    text-transform: uppercase; 
+}
+
+.sobre .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.5rem;
+
+}
+
+.sobre .row .conteudo {
+    padding: 2rem;
+}
+
+.sobre .row .conteudo h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.sobre .row .conteudo p {
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.sobre .row .conteudo span {
+    color: var(--main-color);
+
+}
+
+.meu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box-container {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+}
+
+ .menu .box-container .box img {
+     height: 10rem;   
+    }
+
+
+    .menu .box-container .box h3 {
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+    .menu .box-container .box .price {
+        color: #fff;
+        font-size: 2.5rem;
+        padding: 0.5rem 0;
+    }
+
+    .menu 
+
+
+    
